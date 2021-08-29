@@ -3,23 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420F6E8226B19CA800D4597D /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F6E8126B19CA800D4597D /* TimelineView.swift */; };
+		420F6E8426B19CC300D4597D /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F6E8326B19CC300D4597D /* BookmarkView.swift */; };
+		420F6E8626B19CCE00D4597D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F6E8526B19CCE00D4597D /* SettingsView.swift */; };
 		42BB59A626A2C9F80005D588 /* BandAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB59A526A2C9F80005D588 /* BandAppApp.swift */; };
 		42BB59A826A2C9F80005D588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB59A726A2C9F80005D588 /* ContentView.swift */; };
 		42BB59AA26A2C9F90005D588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BB59A926A2C9F90005D588 /* Assets.xcassets */; };
 		42BB59AD26A2C9F90005D588 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BB59AC26A2C9F90005D588 /* Preview Assets.xcassets */; };
+		42E61F2726B2A2C80077FB1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42E61F2626B2A2C80077FB1D /* GoogleService-Info.plist */; };
+		42E61F2926B2A4860077FB1D /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E61F2826B2A4860077FB1D /* AuthenticationViewModel.swift */; };
+		FBAB90CE7D44572669C7B8F8 /* Pods_BandApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A08DCB064D13F69C5419BE /* Pods_BandApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17A08DCB064D13F69C5419BE /* Pods_BandApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BandApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		420F6E8126B19CA800D4597D /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		420F6E8326B19CC300D4597D /* BookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
+		420F6E8526B19CCE00D4597D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		42BB59A226A2C9F80005D588 /* BandApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BB59A526A2C9F80005D588 /* BandAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandAppApp.swift; sourceTree = "<group>"; };
 		42BB59A726A2C9F80005D588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42BB59A926A2C9F90005D588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BB59AC26A2C9F90005D588 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42BB59AE26A2C9F90005D588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BB59B426A2CC030005D588 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		42E61F2626B2A2C80077FB1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42E61F2826B2A4860077FB1D /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		44BBF27AD30CED49C9DADAF9 /* Pods-BandApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BandApp.release.xcconfig"; path = "Target Support Files/Pods-BandApp/Pods-BandApp.release.xcconfig"; sourceTree = "<group>"; };
+		945A0E5997A92289275309F5 /* Pods-BandApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BandApp.debug.xcconfig"; path = "Target Support Files/Pods-BandApp/Pods-BandApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +42,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAB90CE7D44572669C7B8F8 /* Pods_BandApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		421A958826A3D998002A40E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		421A958926A3D99F002A40E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42BB59A726A2C9F80005D588 /* ContentView.swift */,
+				420F6E8526B19CCE00D4597D /* SettingsView.swift */,
+				420F6E8326B19CC300D4597D /* BookmarkView.swift */,
+				420F6E8126B19CA800D4597D /* TimelineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		421A958A26A3D9A5002A40E4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				42E61F2826B2A4860077FB1D /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		42BB599926A2C9F80005D588 = {
 			isa = PBXGroup;
 			children = (
 				42BB59A426A2C9F80005D588 /* BandApp */,
 				42BB59A326A2C9F80005D588 /* Products */,
+				83746FE569825C833B2F1221 /* Pods */,
+				D5E09917A3C9227EEA1999EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +96,13 @@
 		42BB59A426A2C9F80005D588 /* BandApp */ = {
 			isa = PBXGroup;
 			children = (
+				42BB59B426A2CC030005D588 /* README.md */,
 				42BB59A526A2C9F80005D588 /* BandAppApp.swift */,
-				42BB59A726A2C9F80005D588 /* ContentView.swift */,
+				421A958826A3D998002A40E4 /* Model */,
+				421A958926A3D99F002A40E4 /* View */,
+				421A958A26A3D9A5002A40E4 /* ViewModel */,
 				42BB59A926A2C9F90005D588 /* Assets.xcassets */,
+				42E61F2626B2A2C80077FB1D /* GoogleService-Info.plist */,
 				42BB59AE26A2C9F90005D588 /* Info.plist */,
 				42BB59AB26A2C9F90005D588 /* Preview Content */,
 			);
@@ -69,6 +117,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		83746FE569825C833B2F1221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				945A0E5997A92289275309F5 /* Pods-BandApp.debug.xcconfig */,
+				44BBF27AD30CED49C9DADAF9 /* Pods-BandApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5E09917A3C9227EEA1999EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17A08DCB064D13F69C5419BE /* Pods_BandApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42BB59B126A2C9F90005D588 /* Build configuration list for PBXNativeTarget "BandApp" */;
 			buildPhases = (
+				DEDE9EEB81C65A3BAAF2B092 /* [CP] Check Pods Manifest.lock */,
 				42BB599E26A2C9F80005D588 /* Sources */,
 				42BB599F26A2C9F80005D588 /* Frameworks */,
 				42BB59A026A2C9F80005D588 /* Resources */,
+				6C5ED910D6AFE2F807E782A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,17 +195,64 @@
 			files = (
 				42BB59AD26A2C9F90005D588 /* Preview Assets.xcassets in Resources */,
 				42BB59AA26A2C9F90005D588 /* Assets.xcassets in Resources */,
+				42E61F2726B2A2C80077FB1D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C5ED910D6AFE2F807E782A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BandApp/Pods-BandApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BandApp/Pods-BandApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BandApp/Pods-BandApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEDE9EEB81C65A3BAAF2B092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BandApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42BB599E26A2C9F80005D588 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E61F2926B2A4860077FB1D /* AuthenticationViewModel.swift in Sources */,
+				420F6E8626B19CCE00D4597D /* SettingsView.swift in Sources */,
 				42BB59A826A2C9F80005D588 /* ContentView.swift in Sources */,
+				420F6E8226B19CA800D4597D /* TimelineView.swift in Sources */,
+				420F6E8426B19CC300D4597D /* BookmarkView.swift in Sources */,
 				42BB59A626A2C9F80005D588 /* BandAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +378,7 @@
 		};
 		42BB59B226A2C9F90005D588 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945A0E5997A92289275309F5 /* Pods-BandApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +401,7 @@
 		};
 		42BB59B326A2C9F90005D588 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BBF27AD30CED49C9DADAF9 /* Pods-BandApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
