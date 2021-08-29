@@ -10,8 +10,8 @@
 		420F6E8226B19CA800D4597D /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F6E8126B19CA800D4597D /* TimelineView.swift */; };
 		420F6E8426B19CC300D4597D /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F6E8326B19CC300D4597D /* BookmarkView.swift */; };
 		420F6E8626B19CCE00D4597D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F6E8526B19CCE00D4597D /* SettingsView.swift */; };
+		4282CF5C26DBC38500B5D141 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282CF5B26DBC38500B5D141 /* MainView.swift */; };
 		42BB59A626A2C9F80005D588 /* BandAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB59A526A2C9F80005D588 /* BandAppApp.swift */; };
-		42BB59A826A2C9F80005D588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB59A726A2C9F80005D588 /* ContentView.swift */; };
 		42BB59AA26A2C9F90005D588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BB59A926A2C9F90005D588 /* Assets.xcassets */; };
 		42BB59AD26A2C9F90005D588 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BB59AC26A2C9F90005D588 /* Preview Assets.xcassets */; };
 		42E61F2726B2A2C80077FB1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42E61F2626B2A2C80077FB1D /* GoogleService-Info.plist */; };
@@ -24,9 +24,9 @@
 		420F6E8126B19CA800D4597D /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
 		420F6E8326B19CC300D4597D /* BookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
 		420F6E8526B19CCE00D4597D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4282CF5B26DBC38500B5D141 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		42BB59A226A2C9F80005D588 /* BandApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BB59A526A2C9F80005D588 /* BandAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandAppApp.swift; sourceTree = "<group>"; };
-		42BB59A726A2C9F80005D588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42BB59A926A2C9F90005D588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BB59AC26A2C9F90005D588 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42BB59AE26A2C9F90005D588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		421A958926A3D99F002A40E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				42BB59A726A2C9F80005D588 /* ContentView.swift */,
+				4282CF5B26DBC38500B5D141 /* MainView.swift */,
 				420F6E8526B19CCE00D4597D /* SettingsView.swift */,
 				420F6E8326B19CC300D4597D /* BookmarkView.swift */,
 				420F6E8126B19CA800D4597D /* TimelineView.swift */,
@@ -249,8 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E61F2926B2A4860077FB1D /* AuthenticationViewModel.swift in Sources */,
+				4282CF5C26DBC38500B5D141 /* MainView.swift in Sources */,
 				420F6E8626B19CCE00D4597D /* SettingsView.swift in Sources */,
-				42BB59A826A2C9F80005D588 /* ContentView.swift in Sources */,
 				420F6E8226B19CA800D4597D /* TimelineView.swift in Sources */,
 				420F6E8426B19CC300D4597D /* BookmarkView.swift in Sources */,
 				42BB59A626A2C9F80005D588 /* BandAppApp.swift in Sources */,
